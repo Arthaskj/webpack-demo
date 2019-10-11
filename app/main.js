@@ -1,10 +1,10 @@
 // main.js
 import React from 'react';
 import {
-    render
+  render
 } from 'react-dom';
 import Greeter from './Greeter';
 
-import './main.css'; //使用require导入css文件
+import './main.css'; // 使用require导入css文件
 
-render( < Greeter / > , document.getElementById('root'));
+render( < Greeter / >, document.getElementById('root'));

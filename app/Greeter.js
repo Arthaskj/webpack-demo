@@ -7,19 +7,19 @@
 //     return greet;
 // };
 
-//Greeter,js
+// Greeter,js
 import React, {
-    Component
+  Component
 } from 'react'
 import config from './config.json';
-import styles from './Greeter.css'; //导入
+import styles from './Greeter.css'; // 导入
 
 class Greeter extends Component {
-    render() {
-        return ( < div > {
-                config.greetText
-            } < /div>);
-        }
-    }
+  render() {
+    return < div > {
+      config.greetText
+    } < /div>;
+  }
+}
 
-    export default Greeter
+export default Greeter
